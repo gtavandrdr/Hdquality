@@ -121,7 +121,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'linkpays.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '9731a5ef946bae33915bd58e672744761de3dd17')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/HDMoviesChatRoom')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/UnpaidMovies/2228')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
@@ -161,7 +161,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
