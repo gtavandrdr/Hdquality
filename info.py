@@ -118,7 +118,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'linkpays.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '9731a5ef946bae33915bd58e672744761de3dd17')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/UnpaidMovies/2228')
