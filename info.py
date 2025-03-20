@@ -124,10 +124,10 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '0a7b1636e82a538bff9c
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://youtu.be/6nARezLtA84?si=8v4tztdLpnCDHVA6')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'kingshortx.in')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'e31dc1adb95ac107be71c6f25a474832755ce60d')
 
 
 # Shortlink Info
