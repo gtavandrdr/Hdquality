@@ -119,12 +119,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'arolinks.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '0a7b1636e82a538bff9c4d19ab9f1bff4196b72c')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://youtu.be/6nARezLtA84?si=8v4tztdLpnCDHVA6')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'kingshortx.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'e31dc1adb95ac107be71c6f25a474832755ce60d')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/UnpaidMovies')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'kingshortx.in')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'e31dc1adb95ac107be71c6f25a474832755ce60d')
