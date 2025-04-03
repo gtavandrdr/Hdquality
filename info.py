@@ -120,8 +120,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'dev.rockerslabs.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '093da844d334e6c3717dcaaee033371aa262c6f9
-')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '093da844d334e6c3717dcaaee033371aa262c6f9')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/UnpaidMovies')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
